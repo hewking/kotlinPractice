@@ -1,4 +1,4 @@
-package main.kotin.com.hewking.kotlin
+package main.kotin.com.hewking.kotlin.basics
 
 /**
  * @program: kotlinPractice
