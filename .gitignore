@@ -23,3 +23,8 @@
 hs_err_pid*
 /.idea
 target
+.idea/compiler.xml
+.idea/misc.xml
+.idea/workspace.xml
+kotlinPractice.iml
+target/classes/META-INF/
