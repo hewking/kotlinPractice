@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <kotlin.version>1.3.50</kotlin.version>
+        <kotlin.version>1.3.71</kotlin.version>
     </properties>
 
     <groupId>hewking</groupId>
@@ -17,6 +17,11 @@
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib</artifactId>
             <version>${kotlin.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-coroutines-core</artifactId>
+            <version>1.3.7</version>
         </dependency>
     </dependencies>
 </project>
