@@ -84,3 +84,20 @@ class Student(val map: MutableMap<String,Any?>){
     var name:String by map
     val age:Int by map
 }
+
+class Foo {
+    fun isValid():Boolean {
+        return true
+    }
+
+    fun doSomething(){
+
+    }
+}
+
+fun example(computeFoo: () -> Foo){
+    val memoizedFoo by lazy(computeFoo)
+    if (memoizedFoo.isValid()) {
+        memoizedFoo.doSomething()
+    }
+}
