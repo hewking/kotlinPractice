@@ -1,4 +1,4 @@
-package com.hewking.kotlin.classs_objects.inline
+package com.hewking.kotlin.classs_objects.`object`
 
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
