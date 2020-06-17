@@ -1,7 +1,7 @@
 package com.hewking.kotlin.functions_lambdas.function
 
-import com.sun.corba.se.impl.orbutil.graph.Graph
-import sun.security.provider.certpath.Vertex
+//import com.sun.corba.se.impl.orbutil.graph.Graph
+//import sun.security.provider.certpath.Vertex
 
 /**
  * @Classname Test
@@ -69,12 +69,12 @@ fun foo(){
     1.shl(2)
 }
 
-fun dfs(graph: Graph) {
-    fun dfs(current: Vertex,visited: MutableSet<Vertex>) {
-        if (!visited.add(current)) return
-//        for (v in current.)
-    }
-}
+//fun dfs(graph: Graph) {
+//    fun dfs(current: Vertex,visited: MutableSet<Vertex>) {
+//        if (!visited.add(current)) return
+////        for (v in current.)
+//    }
+//}
 
 // 尾递归优化
 val eps = 1E-10
